@@ -2,6 +2,8 @@
 
 > React Hooks State Mangement System
 
+i can't publish it to the NPM, if any one can do this, fork and do it
+
 ## Usage
 
 ### 1. Create Storage (States, Actions)
