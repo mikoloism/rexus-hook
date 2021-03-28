@@ -1,7 +1,8 @@
-# Getting Started with Create React App
+# Main Trux [README.md](./src/README.md);
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-[README.md](./src/README.md);
 
 ## Available Scripts
 
