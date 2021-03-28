@@ -13,12 +13,17 @@ then Actions [or any name] (this save your any action and method, you want to ch
 
 ```js
 	// ./Store/Actions.js
-	...
+
 	// RULE 1 : every action functions should give {state} as first args, then other parameter.
 	// RULE 2 : each action function would return an Object from old states and new State keyword with new Value as Object.
 	// RULE 3 : for exporting and useing actions, you can use with any exporting, just, you would send actions as Object to `createTrux`
+
+	// CREATE ACTIONS FUNCTION
+
 	const ACTION_1 = ({state}, ...action_params) => ({...state, myKeyToChange: state.myKeyToChange + 1 });
 	const OTHER_ACTION = ({state}, newName) => ({...state, name: newName });
+
+	// EXPORT THEY
 	export { ACTION_1, OTHER_ACTION };
 ```
 
