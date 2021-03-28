@@ -9,7 +9,18 @@
 > my store folder at [here](./App/Store)
 
 Before anything, you should create to file, first state [or any name] (that contain you states and data objects),
-then Actions [or any name] (this save your any action and method, you want to change state objects),
+then Actions [or any name] (this save your any action and method, you want to change state objects).
+
+```js
+	// ./Store/Actions.js
+	...
+	// RULE 1 : every action functions should give {state} as first args, then other parameter.
+	// RULE 2 : each action function would return an Object from old states and new State keyword with new Value as Object.
+	// RULE 3 : for exporting and useing actions, you can use with any exporting, just, you would send actions as Object to `createTrux`
+	const ACTION_1 = ({state}, ...action_params) => ({...state, myKeyToChange: state.myKeyToChange + 1 });
+	const OTHER_ACTION = ({state}, newName) => ({...state, name: newName });
+	export { ACTION_1, OTHER_ACTION };
+```
 
 ### 2. Provider Creation
 
