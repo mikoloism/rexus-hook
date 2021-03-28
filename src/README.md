@@ -6,7 +6,7 @@
 
 ### 1. Create Storage (States, Actions)
 
-> my store folder at [here](./src/Store)
+> my store folder at [here](./App/Store)
 
 Before anything, you should create to file, first state [or any name] (that contain you states and data objects),
 then Actions [or any name] (this save your any action and method, you want to change state objects),
