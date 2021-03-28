@@ -2,8 +2,10 @@ import React from 'react';
 import useTrux from './../trux';
 import './component.css';
 
-const Button = ({ children, onClick }) => (
-	<button onClick={onClick}>{children}</button>
+const Button = ({ className, children, onClick }) => (
+	<button className={className} onClick={onClick}>
+		{children}
+	</button>
 );
 const Container = ({ children }) => {
 	const { state, actions } = useTrux();
@@ -15,17 +17,17 @@ const Container = ({ children }) => {
 			</div>
 			<div id='trux-actions'>
 				<Button
-					className='trux-buttons--INCREMENT'
+					className='trux-btns trux-btn--INCREMENT'
 					onClick={() => actions.INCREMENT()}>
 					INCREMENT
 				</Button>
 				<Button
-					className='trux-buttons--FIXING'
+					className='trux-btns trux-btn--FIXING'
 					onClick={() => actions.FIXING()}>
 					FIXING
 				</Button>
 				<Button
-					className='trux-buttons--DECREMENT'
+					className='trux-btns trux-btn--DECREMENT'
 					onClick={() => actions.DECREMENT()}>
 					DECREMENT
 				</Button>

@@ -8,7 +8,7 @@ import { Provider, createTrux } from './trux';
 import State from './App/Store/state';
 import * as Actions from './App/Store/actions';
 
-const Store = createTrux({ State, Actions });
+const Store = createTrux({ state: State, actions: Actions });
 
 ReactDOM.render(
 	<Provider store={Store}>

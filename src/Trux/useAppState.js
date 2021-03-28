@@ -25,6 +25,7 @@ const getActions = (setState) => {
 					initialActions[action].call(null, { state }, ...params),
 				)),
 	);
+	console.log(_ACTIONS);
 	return _ACTIONS;
 };
 
@@ -34,5 +35,6 @@ const useAppState = () => {
 	// getActions(setState, { state });
 	return { state, actions };
 };
+
 export { getActions, createAppActions, createAppState };
 export default useAppState;
