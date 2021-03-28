@@ -20,7 +20,7 @@ and it, return an Object, you should send it as `store` props to `Provider`. so,
 
 Provider is an Component you would import it from Trux and use your node components as children for this Component.
 
-    ```jsx
+```jsx
     // index.js //MyRootComponent.js
     ...
     import Children from './Component/index.js';
@@ -37,7 +37,7 @@ Provider is an Component you would import it from Trux and use your node compone
     	);
     };
     ...
-    ```
+```
 
 ### 3. `useTrux`
 
@@ -45,7 +45,7 @@ to this step, you want to use `states` and `actions`?
 
 so, you use them, with importing `useTrux` from `trux`
 
-    ```jsx
+```jsx
     // ./component/index.js MyChildNodeComponent
     ...
     import useTrux from 'trux';
@@ -62,4 +62,4 @@ so, you use them, with importing `useTrux` from `trux`
     	);
     };
     ...
-    ```
+```
