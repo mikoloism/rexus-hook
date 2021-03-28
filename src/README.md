@@ -19,9 +19,11 @@ then Actions [or any name] (this save your any action and method, you want to ch
 	// RULE 3 : for exporting and useing actions, you can use with any exporting, just, you would send actions as Object to `createTrux`
 
 	// CREATE ACTIONS FUNCTION
-
 	const ACTION_1 = ({state}, ...action_params) => ({...state, myKeyToChange: state.myKeyToChange + 1 });
-	const OTHER_ACTION = ({state}, newName) => ({...state, name: newName });
+	const OTHER_ACTION = ({state}, newName) => {
+		let data = { ...state, name: newName };
+		return data;
+	};
 
 	// EXPORT THEY
 	export { ACTION_1, OTHER_ACTION };
