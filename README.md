@@ -1,4 +1,5 @@
-# Main Trux [README.md](./src/README.md);
+# Main Trux
+[![View - Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](./src/README.md)
 [![Made with React](https://img.shields.io/badge/React-17-blue?logo=react&logoColor=white)](https://www.npmjs.com/package/react)
 [![Made with JavaScript](https://img.shields.io/badge/Made_with-JavaScript-blue?logo=javascript&logoColor=white)](https://www.javascript.com/)
 ## Getting Started with Create React App
