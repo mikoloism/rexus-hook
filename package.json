@@ -36,6 +36,10 @@
 	},
 	"author": "@miko-github",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/miko-github/react-trux.git"
+	},
 	"keywords": [
 		"react",
 		"hooks",
