@@ -36,7 +36,7 @@
 	},
 	"author": "@miko-github",
 	"license": "MIT",
-	"tags": [
+	"keywords": [
 		"react",
 		"hooks",
 		"state"
