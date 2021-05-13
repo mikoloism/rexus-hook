@@ -1,2 +1,1 @@
-// TODO: HI 😸
-const text = ``;
+const obj = { con: { hi: 'hi' } };
