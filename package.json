@@ -33,5 +33,12 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
-	}
+	},
+	"author": "@miko-github",
+	"license": "MIT",
+	"tags": [
+		"react",
+		"hooks",
+		"state"
+	]
 }
