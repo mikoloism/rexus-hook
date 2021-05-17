@@ -1,5 +1,6 @@
-# <span style="font-weight: bold; font-family: sans-serif; background-color: gold; color: #343434;padding: 4px 9px">trux</span> = 🦖 + ⚛️
+# :t-rex: + :atom_symbol: = react-trux
 
-> react state managment hooks
->
-> use Context-API
+every react developer know, state is isolated to component!\
+so if we create a hooks that work with no dependencies (only react-context-api), that help us to work with global state,
+
+i think this is good thing :heart:
