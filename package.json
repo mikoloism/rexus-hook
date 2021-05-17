@@ -1,6 +1,6 @@
 {
-	"name": "react-trux",
-	"version": "0.1.3",
+	"name": "@miko-github/react-trux",
+	"version": "0.1.4",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.12.0",
 		"@testing-library/react": "^11.2.6",
@@ -34,11 +34,11 @@
 			"last 1 safari version"
 		]
 	},
-	"author": "@miko-github",
+	"author": "miko-github",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/miko-github/react-trux.git"
+		"url": "git+https://github.com/miko-github/react-trux.git"
 	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
