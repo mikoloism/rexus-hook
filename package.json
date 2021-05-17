@@ -1,55 +1,22 @@
 {
-	"name": "react-trux",
-	"version": "0.1.6",
-	"dependencies": {
-		"@testing-library/jest-dom": "^5.12.0",
-		"@testing-library/react": "^11.2.6",
-		"@testing-library/user-event": "^12.8.3",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"react-scripts": "4.0.3",
-		"web-vitals": "^1.1.2"
-	},
+	"private": true,
+	"workspaces": [
+		"example",
+		"react-trux"
+	],
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"build": "yarn build:hook && yarn build:example",
+		"build:example": "yarn workspace example package",
+		"build:hook": "yarn workspace react-trux build",
+		"bump": "yarn workspace react-trux bump",
+		"develop": "yarn watch",
+		"watch": "concurrently -n Hook,Example \"yarn watch:hook\" \"yarn watch:example\"",
+		"watch:example": "yarn workspace example develop",
+		"watch:hook": "yarn workspace react-trux watch",
+		"setup": "node ./scripts/setup.js"
 	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
+	"devDependencies": {
+		"concurrently": "^5.3.0"
 	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	},
-	"author": "miko-github",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/miko-github/react-trux.git"
-	},
-	"keywords": [
-		"react",
-		"hooks",
-		"state",
-		"context",
-		"trux",
-		"react-trux",
-		"redux",
-		"mbox",
-		"react-js",
-		"reactjs"
-	]
+	"license": "MIT"
 }

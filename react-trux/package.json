@@ -1,0 +1,54 @@
+{
+  "name": "react-trux",
+  "version": "0.2.1",
+  "description": "non-dependencies react-js state hooks",
+  "author": {
+    "name": "miko-github",
+    "email": "mikoloism.github@gmail.com",
+    "url": "https://github.com/miko-github/"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-hooks",
+    "react-js",
+    "reactjs",
+    "trux",
+    "useTrux",
+    "use-trux",
+    "react-trux",
+    "mbox",
+    "redux",
+    "redux-alt",
+    "redux-alternative",
+    "state",
+    "state-manager",
+    "state-managment",
+    "global-state",
+    "state-globaly",
+    "react-state"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "bump": "npm version",
+    "example": "cd example && yarn install && yarn package",
+    "prepublishOnly": "yarn build",
+    "watch": "nodemon --watch src --exec \"yarn build\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-react": "^7.12.13",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miko-github/react-trux"
+  },
+  "bugs": {
+    "url": "https://github.com/miko-github/react-trux/issues"
+  }
+}

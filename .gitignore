@@ -5050,3 +5050,6 @@ example/.next/cache/next-babel-loader/ec3ac52f75645a3d4e2d7f31d664d236.json
 example/.next/cache/next-babel-loader/ef70b34d6dc12ca9cb19859be3ec787a.json
 example/.next/cache/next-babel-loader/f09ca150f7253e5e594552c4dfbf0154.json
 example/.next/cache/next-babel-loader/f384c4976d18e98632b33fa6cdcf4ddb.json
+react-trux/node_modules/.bin/babel
+react-trux/node_modules/.bin/babel-external-helpers
+react-trux/node_modules/.bin/nodemon
