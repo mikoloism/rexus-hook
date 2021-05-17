@@ -1,6 +1,6 @@
 {
-	"name": "@miko-github/react-trux",
-	"version": "0.1.5",
+	"name": "react-trux",
+	"version": "0.1.6",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.12.0",
 		"@testing-library/react": "^11.2.6",
@@ -39,9 +39,6 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/miko-github/react-trux.git"
-	},
-	"publishConfig": {
-		"registry": "https://npm.pkg.github.com"
 	},
 	"keywords": [
 		"react",
