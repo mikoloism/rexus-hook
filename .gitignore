@@ -23,6 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 TODO
 example/node_modules
+example/.next/cache
 example/node_modules/big.js/package.json
 example/node_modules/binary-extensions/binary-extensions.json
 example/node_modules/binary-extensions/license
