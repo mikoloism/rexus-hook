@@ -1,5 +1,5 @@
 {
-	"name": "react-trux",
+	"name": "@miko-github/react-trux",
 	"version": "0.1.5",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.12.0",
