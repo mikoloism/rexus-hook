@@ -15,10 +15,10 @@ jobs:
         with:
           node-version: '10.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm install
+      - run: npm install && npm build
       # Publish to npm
       - working-directory: ./react-trux
-        run: npm publish --access public
+        run: npm install && npm build && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       # Setup .npmrc file to publish to GitHub Packages
@@ -29,6 +29,6 @@ jobs:
           scope: '@octocat'
       # Publish to GitHub Packages
       - working-directory: ./react-trux
-        run: npm publish
+        run: npm install && npm build && npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
