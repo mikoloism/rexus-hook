@@ -1,0 +1,49 @@
+{
+	"name": "example",
+	"version": "0.2.2",
+	"private": true,
+	"description": "react-trux example",
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.12.0",
+		"@testing-library/react": "^11.2.7",
+		"@testing-library/user-event": "^12.8.3",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-scripts": "^2.1.8",
+		"web-vitals": "^1.1.2"
+	},
+	"scripts": {
+		"refresh": "npm install",
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"author": {
+		"name": "miko-github",
+		"email": "mikoloism.github@gmail.com",
+		"url": "https://github.com/miko-github/react-trux"
+	},
+	"license": "MIT",
+	"keywords": [
+		"react-trux"
+	]
+}
