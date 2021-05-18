@@ -3,9 +3,7 @@
 
 name: work-flow
 
-on:
-  release:
-    types: [created, edited]
+on: push
 
 jobs:
   build:
