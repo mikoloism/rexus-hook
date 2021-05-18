@@ -12,11 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: cp -R README.md LICENSE ./react-trux/
-      - name: clone-it
-        working-directory: ./react-trux
-        run: |
-          git add README.md
-          git add LICENSE
-          git commit -m "Clone README.md and LICENSE"
-          git push origin master
+      - run: cp -R README.md LICENSE react-trux/
