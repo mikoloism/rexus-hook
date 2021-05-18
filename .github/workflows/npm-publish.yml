@@ -29,6 +29,7 @@ jobs:
       - name: yes-publish
         working-directory: ./react-trux
         run: |
+          npm ci
           npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
           npm publish --ignore-scripts
         env:
@@ -44,6 +45,7 @@ jobs:
       - name: ok-publish
         working-directory: ./react-trux
         run: |
+          npm ci
           npm config set //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
           npm publish --ignore-scripts
         env:
