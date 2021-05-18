@@ -9,18 +9,19 @@
 ## List
 
 - [main](#list)
-  - [pros vs. cons](#pros-vs.-cons)
+  - [pros vs. cons](#pros-vs-cons)
   - [example](#example)
   - [install](#install)
   - [rules](#rules)
   - [steps](#safe-steps)
-    - [store](#1.-initialize)
-    - [create](#2.-create-trux)
-    - [use](#3.-use-trux)
-  - [hooks/methods](#hooks%21methods)
-    - [commit](#commit)
-    - [dispatch](#dispatch)
-    - [actions](#actions)
+    - [store](#1-initialize)
+    - [create](#2-create-trux)
+    - [use](#3-use-trux)
+  - [hooks/methods](#hooksmethods)
+    - [commit](#1-usecommit-and-thiscommit)
+    - [dispatch](#2-usedispatch-and-thisdispatch)
+    - [actions](#3-useaction--thisaction--thisactions)
+  - [license](#license)
 
 ## Pros vs. Cons
 
