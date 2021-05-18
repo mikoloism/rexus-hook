@@ -7,10 +7,10 @@ import VALUE from './value';
 
 function MyComponent() {
 	return (
-		<div>
-			<INCREMENT />
-			<VALUE />
+		<div className='App-component'>
 			<DECREMENT />
+			<VALUE />
+			<INCREMENT />
 		</div>
 	);
 }

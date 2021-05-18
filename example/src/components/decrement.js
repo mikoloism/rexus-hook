@@ -3,7 +3,11 @@ import { useTrux } from 'react-trux';
 
 function DECREMENT() {
 	let { state, actions } = useTrux();
-	return <button onClick={actions.DECREMENT}>DECREMENT</button>;
+	return (
+		<button className='btn-decrement' onClick={() => actions.DECREMENT()}>
+			DECREMENT
+		</button>
+	);
 }
 
 export default DECREMENT;

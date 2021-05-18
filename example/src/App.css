@@ -1,5 +1,10 @@
 .App {
 	text-align: center;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .App-logo {
@@ -15,17 +20,30 @@
 
 .App-header {
 	background-color: #282c34;
-	min-height: 100vh;
+	min-height: calc(100vh - 120px);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
 	color: white;
+	width: 100%;
 }
 
 .App-link {
 	color: #61dafb;
+}
+
+code {
+	color: #b88f0ad3;
+	font-size: 0.7em;
+	padding: 4px;
+	cursor: default;
+	transition: all 0.3s;
+}
+code:hover {
+	color: white;
+	background-color: #b88f0ad3;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +53,55 @@
 	to {
 		transform: rotate(360deg);
 	}
+}
+
+.App-component {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-around;
+	justify-content: space-evenly;
+	width: 50%;
+	height: 100px;
+	padding: 3px 9px;
+	margin: 9px;
+	border: 2px solid #434343;
+	border-radius: 3px;
+	font-size: 1.3em;
+}
+
+.App-component button {
+	color: whitesmoke;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	padding: 9px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.App-component button.btn-increment {
+	background-color: #0b945f;
+}
+.App-component button.btn-increment:hover {
+	box-shadow: 0 0 0 6px #09633d67;
+}
+
+.App-component button.btn-decrement {
+	background-color: #801515;
+}
+.App-component button.btn-decrement:hover {
+	box-shadow: 0 0 0 6px #52151567;
+}
+
+.App-component .value {
+	color: #444;
+	transform: scale(2);
+}
+.App-component .value.low {
+	color: #db2121;
+}
+.App-component .value.high {
+	color: #21bd21;
 }
