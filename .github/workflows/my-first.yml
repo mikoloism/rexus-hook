@@ -5,7 +5,7 @@ name: work-flow
 
 on:
   release:
-    types: [created, edited]
+    types: [edited]
 
 jobs:
   build:
@@ -14,3 +14,4 @@ jobs:
       - run: echo ${{ github.action_path }}
       - run: echo ${{ github.workspace }}
       - run: echo pwd
+      - run: npm start
