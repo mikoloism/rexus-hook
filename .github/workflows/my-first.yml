@@ -12,3 +12,4 @@ jobs:
       - run: echo ${{ github.action_path }}
       - run: echo ${{ github.workspace }}
       - run: echo pwd
+      - run: npm start
