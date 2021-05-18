@@ -1,4 +1,4 @@
-# :t-rex: :heavy_plus_sign: :atom_symbol: = React-Trux
+# :t-rex: :heavy_plus_sign: :atom_symbol: :arrow_right: React-Trux
 
 non-dependencies react hook for managing state as globaly using context api
 
@@ -6,6 +6,10 @@ every react developer know, state is isolated to component!\
 so if we create a hooks that work with no dependencies (only react-context-api), that help us to work with global state,
 
 i think this is good thing :heart:
+
+## example
+
+you can see an exmple of this hooks in [my-github](https://github.com/miko-github/react-trux)
 
 ## install
 
