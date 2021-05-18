@@ -29,13 +29,13 @@ jobs:
       - name: yes-publish
         working-directory: ./react-trux
         run: |
-          npm ci
+          npm i
           npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
           npm publish --ignore-scripts
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
   gh-publish:
-    needs: build
+    needs: [build, npm-publish]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -45,7 +45,7 @@ jobs:
       - name: ok-publish
         working-directory: ./react-trux
         run: |
-          npm ci
+          npm i
           npm config set //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
           npm publish --ignore-scripts
         env:
