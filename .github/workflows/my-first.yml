@@ -9,7 +9,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ github.action_path }}
-      - run: echo ${{ github.workspace }}
-      - run: echo pwd
-      - run: npm start
+      - if: ${{ github.workspace == '/home/runner/work/react-trux/react-trux' }}
+      - run: npm publish
