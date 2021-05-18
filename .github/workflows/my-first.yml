@@ -9,5 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: cd ./react-trux
-      - run: npm publish
+      - run: ls
+      - run: cd react-trux
+      - run: ls
