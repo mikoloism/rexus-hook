@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTrux } from '../../../react-trux';
+import { useTrux } from 'react-trux';
 
 function DECREMENT() {
 	let { state, actions } = useTrux();

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTrux } from '../../../react-trux';
+import { useTrux } from 'react-trux';
 
 const VALUE = () => {
 	let { state, actions } = useTrux();

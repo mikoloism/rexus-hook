@@ -6,7 +6,7 @@ import './App.css';
 import MyComponent from './components/my-component';
 
 // import providerTrux and createTrux
-import { Provider, createTrux } from '../../react-trux';
+import { Provider, createTrux } from 'react-trux';
 
 // import store (state, actions)
 import * as Actions from './store/actions';

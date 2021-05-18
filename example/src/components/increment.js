@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTrux } from '../../../react-trux';
+import { useTrux } from 'react-trux';
 
 class INCREMENT extends React.Component {
 	constructor() {
