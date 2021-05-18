@@ -5,7 +5,7 @@
 		"react-trux"
 	],
 	"scripts": {
-		"build": "yarn build:hook && yarn build:example",
+		"build": "yarn build:hook",
 		"build:example": "yarn workspace example package",
 		"build:hook": "yarn workspace react-trux build",
 		"bump": "yarn workspace react-trux bump",
