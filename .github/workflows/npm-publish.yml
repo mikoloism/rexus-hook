@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - working-directory: react-trux
+      - run: cd 'react-trux'
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
@@ -23,7 +23,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - working-directory: react-trux
+      - run: cd 'react-trux'
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
@@ -41,7 +41,7 @@ jobs:
       contents: read
       packages: write
     steps:
-      - working-directory: react-trux
+      - run: cd 'react-trux'
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
