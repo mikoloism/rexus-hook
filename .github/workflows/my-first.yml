@@ -8,7 +8,10 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      NODE_AUTH_TOKEN: ${ secrets.npm_token }
+      GITHUB_TOKEN: ${ secrets.GITHUB_TOKEN }
     steps:
-      - shell: bash
-      - run: cd '/home/runner/work/_temp'
-      - run: ls
+      - run: echo 'Hi'
+      - run: echo ${env.GITHUB_TOKEN}
+      - run: echo ${{ env.GITHUB_TOKEN}}
