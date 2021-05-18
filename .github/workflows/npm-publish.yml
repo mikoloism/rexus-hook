@@ -27,11 +27,9 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - name: npm-pkg-step-1
-        run: npm i
-      - name: npm-pkg-step-2
-        working-directory: ./react-trux
-        run: npm publish
+      - working-directory: ./react-trux
+      - run: npm login
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
@@ -47,10 +45,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-      - name: gh-pkg-step-1
-        run: npm i
-      - name: gh-pkg-step-2
-        working-directory: ./react-trux
-        run: npm publish
+      - working-directory: ./react-trux
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
