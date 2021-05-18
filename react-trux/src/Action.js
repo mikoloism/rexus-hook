@@ -2,4 +2,6 @@ const useAction = (action, ...params) => {
   return { action, params };
 };
 
-export default useAction;
+const callAction = useAction;
+
+export { useAction, callAction };
