@@ -9,6 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: ls
-      - run: cd react-trux
+      - shell: bash
+      - run: cd '/home/runner/work/_temp'
       - run: ls
