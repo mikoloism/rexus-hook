@@ -1,20 +1,13 @@
 import React from 'react';
 import { useTrux } from 'react-trux';
 
-class INCREMENT extends React.Component {
-	constructor() {
-		super();
-		this.state = {};
-
-		// extracte state, actions
-		let { state, actions } = useTrux();
-		this.stater = state;
-		this.actions = actions;
-	}
-
-	render() {
-		return <button onClick={this.actions.INCREMENT()}>INCREMENT</button>;
-	}
+function INCREMENT() {
+	let { state, actions } = useTrux();
+	return (
+		<button className='btn-increment' onClick={actions.INCREMENT}>
+			INCREMENT
+		</button>
+	);
 }
 
 export default INCREMENT;
