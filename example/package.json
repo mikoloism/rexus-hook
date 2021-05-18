@@ -1,6 +1,6 @@
 {
 	"name": "example",
-	"version": "0.2.5-lts",
+	"version": "0.2.6",
 	"private": true,
 	"description": "react-trux example",
 	"dependencies": {
