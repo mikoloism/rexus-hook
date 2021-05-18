@@ -5054,3 +5054,4 @@ example/.next/cache/next-babel-loader/f384c4976d18e98632b33fa6cdcf4ddb.json
 react-trux/node_modules/.bin/babel
 react-trux/node_modules/.bin/babel-external-helpers
 react-trux/node_modules/.bin/nodemon
+.vscode/settings.json
