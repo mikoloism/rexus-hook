@@ -15,8 +15,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-      - run: npm i
-      - run: npm build
+      - run: npm ci
+      - run: npm run build
 
   npm-publish:
     needs: build
@@ -33,3 +33,18 @@ jobs:
           npm publish --ignore-scripts
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  gh-publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - name: ok-publish
+        working-directory: ./react-trux
+        run: |
+          npm config set //npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+          npm publish --ignore-scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
