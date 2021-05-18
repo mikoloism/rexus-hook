@@ -20,13 +20,14 @@ const createAppState = ({ state, actions }) => {
 
 const getActions = (setState) => {
   const actions_name = Object.keys(initialActions);
-  actions_name.map(
-    (action) =>
-      (_ACTIONS[action] = (...params) =>
-        setState((state) =>
-          initialActions[action].call(null, { state }, ...params)
-        ))
-  );
+  actions_name.map((action) => {
+    _ACTIONS[action] = (...params) => {
+      return setState((state) => {
+        return initialActions[action].call(null, { state }, ...params);
+      });
+    };
+    return _ACTIONS[action];
+  });
   return _ACTIONS;
 };
 
@@ -36,5 +37,6 @@ const useAppState = () => {
   // getActions(setState, { state });
   return { state, actions };
 };
+
 export { getActions, createAppActions, createAppState };
 export default useAppState;
