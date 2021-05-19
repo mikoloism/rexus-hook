@@ -1,4 +1,4 @@
-name: publish-to-npm
+name: publish-to-github
 on:
   release:
     types: [created]
@@ -10,14 +10,13 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v2
-      # Setup .npmrc file to publish to npm
       - uses: actions/setup-node@v1
         with:
-          node-version: '14'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: '14.x'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@miko-github'
       - run: npm install && npm build
-      # Publish to npm
       - working-directory: ./react-trux
-        run: npm install && npm build && npm publish --access public
+        run: npm install && npm build && npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
