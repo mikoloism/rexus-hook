@@ -1,5 +1,7 @@
 # :t-rex: :heavy_plus_sign: :atom_symbol: = React-Trux
 
+[![npm package](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml)
+
 > **non-dependencies** react hook for managing state as globaly (using context api)
 
 > every react developer know, state is isolated to component!
