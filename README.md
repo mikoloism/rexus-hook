@@ -21,6 +21,7 @@
     - [commit](#1-usecommit-and-thiscommit)
     - [dispatch](#2-usedispatch-and-thisdispatch)
     - [actions](#3-useaction--thisaction--thisactions)
+  - [social](#social)
   - [license](#license)
 
 ## Pros vs. Cons
@@ -54,7 +55,9 @@ available in [here](https://github.com/miko-github/react-trux/tree/master/exampl
 
 ## Rules
 
-> write in next release :hugs:
+> improve in next release :hugs:
+>
+> [demo](https://github.com/miko-github/react-trux/blob/master/readme/rules)
 
 ## Safe Steps
 
@@ -376,6 +379,13 @@ function MyComponent() {
   );
 }
 ```
+
+## Social
+
+[github](https://github.com/miko-github/react-trux)
+[npmjs](https://npmjs.com/package/react-trux)
+[email](mikoloism.github@gmail.com)
+[contribute](https://github.com/miko-github/react-trux/blob/master/readme/contributing.md)
 
 ## LICENSE
 
