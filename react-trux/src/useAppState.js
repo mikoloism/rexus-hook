@@ -31,12 +31,14 @@ const getActions = (setState) => {
   return _ACTIONS;
 };
 
+let useCommit;
 const useAppState = () => {
   const [state, setState] = useState(initialState);
   const actions = useMemo(() => getActions(setState), [setState]);
   // getActions(setState, { state });
+  useCommit = setState;
   return { state, actions };
 };
 
-export { getActions, createAppActions, createAppState };
+export { getActions, createAppActions, createAppState, useCommit };
 export default useAppState;
