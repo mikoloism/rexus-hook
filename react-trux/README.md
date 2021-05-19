@@ -1,5 +1,7 @@
 # :t-rex: :heavy_plus_sign: :atom_symbol: = React-Trux
 
+[![npm package](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml)
+
 > **non-dependencies** react hook for managing state as globaly (using context api)
 
 > every react developer know, state is isolated to component!
@@ -21,6 +23,7 @@
     - [commit](#1-usecommit-and-thiscommit)
     - [dispatch](#2-usedispatch-and-thisdispatch)
     - [actions](#3-useaction--thisaction--thisactions)
+  - [social](#social)
   - [license](#license)
 
 ## Pros vs. Cons
@@ -54,7 +57,9 @@ available in [here](https://github.com/miko-github/react-trux/tree/master/exampl
 
 ## Rules
 
-> write in next release :hugs:
+> improve in next release :hugs:
+>
+> [demo](https://github.com/miko-github/react-trux/blob/master/readme/rules)
 
 ## Safe Steps
 
@@ -376,6 +381,13 @@ function MyComponent() {
   );
 }
 ```
+
+## Social
+
+[github](https://github.com/miko-github/react-trux)
+[npmjs](https://npmjs.com/package/react-trux)
+[email](mikoloism.github@gmail.com)
+[contribute](https://github.com/miko-github/react-trux/blob/master/readme/contributing.md)
 
 ## LICENSE
 
