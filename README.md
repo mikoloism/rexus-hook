@@ -2,7 +2,7 @@
 
 <a href="https://npmjs.org/package/react-trux"><img alt="NPM version" src="https://img.shields.io/npm/v/react-trux.svg?style=flat-square" /></a>
 [![npm](https://img.shields.io/npm/dw/react-trux?style=flat-square)](https://npmjs.org/package/react-trux)
-[![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/react-trux?style=flat-square)](https://npmjs.org/package/react-trux)
+[![npm dependencies](https://img.shields.io/static/v1?label&message=no-dependecies&color=blue&style=flat-square)](https://npmjs.org/package/react-trux)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/miko-github/react-trux/publish%20npm?style=flat-square)](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml)
 [![NPM](https://img.shields.io/npm/l/react-trux?style=flat-square)][gh-license]
 
