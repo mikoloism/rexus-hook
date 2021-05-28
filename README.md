@@ -1,6 +1,7 @@
 # :t-rex: :heavy_plus_sign: :atom_symbol: = React-Trux
 
 [![npm package](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml)
+<a href="https://npmjs.org/package/react-trux"><img alt="NPM version" src="https://img.shields.io/npm/v/react-trux.svg?style=flat-square" /></a>
 
 > **non-dependencies** react hook for managing state as globaly (using context api)
 
@@ -8,9 +9,9 @@
 >
 > so if we create a hooks that work with no dependencies (only react-context-api), that help us to work with global state
 
-## List
+## Content
 
-- [main](#list)
+- [main](#content)
   - [pros vs. cons](#pros-vs-cons)
   - [example](#example)
   - [install](#install)
