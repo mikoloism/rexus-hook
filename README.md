@@ -1,7 +1,8 @@
 # :t-rex: :heavy_plus_sign: :atom_symbol: = React-Trux
 
-[![npm package](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml)
+<!-- [![npm package](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml) -->
 <a href="https://npmjs.org/package/react-trux"><img alt="NPM version" src="https://img.shields.io/npm/v/react-trux.svg?style=flat-square" /></a>
+[![npm](https://img.shields.io/npm/dw/react-trux?style=flat-square)](https://npmjs.org/package/react-trux)
 
 > **non-dependencies** react hook for managing state as globaly (using context api)
 
