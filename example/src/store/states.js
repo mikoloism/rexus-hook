@@ -1,5 +1,5 @@
 const state = {
-	counter: 0,
-	fixTimes: 0,
+  counter: 0,
+  fixTimes: 0,
 };
 export default state;
