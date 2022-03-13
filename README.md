@@ -1,4 +1,4 @@
-# :t-rex: :heavy_plus_sign: :atom_symbol: = React-Trux
+# Grox
 
 <a href="https://npmjs.org/package/react-trux"><img alt="NPM version" src="https://img.shields.io/npm/v/react-trux.svg?style=flat-square" /></a>
 [![npm](https://img.shields.io/npm/dw/react-trux?style=flat-square)](https://npmjs.org/package/react-trux)
@@ -6,59 +6,69 @@
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/miko-github/react-trux/publish%20npm?style=flat-square)](https://github.com/miko-github/react-trux/actions/workflows/npm-publish.yml)
 [![NPM](https://img.shields.io/npm/l/react-trux?style=flat-square)][gh-license]
 
+<p>
+  Grox is solution for react global state managment and is the easy way managment states with only hooks.
+  <strong>Easy to use</strong> steps make it so fast for tiny and medium react project (application) to mange their state.
+</p>
 
-> **non-dependencies** react hook for managing state as globaly (using context api)
-
-> every react developer know, state is isolated to component!
->
-> so if we create a hooks that work with no dependencies (only react-context-api), that help us to work with global state
-
-## Content
-
-- [main](#content)
-  - [pros vs. cons](#pros-vs-cons)
-  - [example](#example)
-  - [install](#install)
-  - [rules](#rules)
-  - [steps](#safe-steps)
-    - [store](#1-initialize)
-    - [create](#2-create-trux)
-    - [use](#3-use-trux)
-  - [hooks/methods](#hooksmethods)
-    - [commit](#1-usecommit-and-thiscommit)
-    - [dispatch](#2-usedispatch-and-thisdispatch)
-    - [actions](#3-useaction--thisaction--thisactions)
+<details>
+  <summary>
+    <h2>Content List</h2>
+  </summary>
+  
+  - [what is **grox**](#what-is-grox)
+  - [how to install](#how-to-install)
+    - [install with **cdnjs**](#install-with-cdnjs)
+    - [install with **npmjs**](#install-with-npm)
+    - [install with **yarn**](#install-with-yarn)
+  - [how to struct project](#how-to-struct-project)
   - [social](#social)
   - [license](#license)
+  
+</details>
 
-## Pros vs. Cons
+<details>
+  <summary>
+    <h2 id="how-to-install">
+  How to install
+</h2>
+  </summary>
 
-- **:heavy_check_mark: Pros**
-  - **non-dependencies**
-  - setup and use with only **3 steps**
-  - easy to use
-  - easy setup
-- **:heavy_multiplication_x: Cons**
-  - unsupport _currentlly_ class component states/actions
-  - unsupport _currentlly_ `dispatch`ing actions
-    - may in new release
-  - unsupport _currentlly_ `useAction` hook (alike redux `dispatch`)
-    - may in new release
-  - unsupport _currentlly_ `useState` hook for accessing faster to global states
-    - may in new release
+<p>
+  <h3 id="install-with-cdnjs">CDN.JS</h3>
+  
+  ```
+  https://cdnjs.com
+  ```
+
+</p>
+
+<p>
+<h3 id="install-with-npm">NPM</h3>
+  
+  ```
+  npm install --save-dev grox
+  ```
+
+</p>
+
+<p>
+<h3 id="install-with-yarn">YARN</h3>
+  
+  ```
+  yarn install grox
+  ```
+
+</p>
+  
+  </details>
+  
 
 ## Example
 
 **mini-app counter**
 
 available in [here](https://github.com/miko-github/react-trux/tree/master/example)
-
-## Install
-
-- npm
-  - `npm install react-trux`
-- yarn
-  - `yarn add react-trux`
 
 ## Rules
 
@@ -394,11 +404,13 @@ function MyComponent() {
 [email](mikoloism.github@gmail.com)
 [contribute](https://github.com/miko-github/react-trux/blob/master/readme/contributing.md)
 
-## LICENSE
-
-under [MIT](https://github.com/miko-github/react-trux/blob/master/LICENSE) & **OPEN-SOURCE**
-
-:fist: :heart:
-
+<details>
+  <summary><h2 id="repo-license">LICENSE</h2></summary>
+  
+  <p>
+    made by 🧠 and ❤️ with <a href="https://github.com/miko-github">@miko-github</a> then, under <a href="https://github.com/miko-github/react-trux/blob/master/LICENSE">MIT</a> License
+  </p>
+  
+  </details>
 
 [gh-license]: https://github.com/miko-github/react-trux/blob/master/LICENSE
