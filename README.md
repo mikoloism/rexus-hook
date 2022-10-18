@@ -1,4 +1,10 @@
-# Grox
+**DEPRECATED on `Oct 18 2022`**
+
+Rexus (Trux or Grox as older name)
+
+documentation hidden on comment of this readme.
+
+<!--
 
 <a href="https://npmjs.org/package/react-trux"><img alt="NPM version" src="https://img.shields.io/npm/v/react-trux.svg?style=flat-square" /></a>
 [![npm](https://img.shields.io/npm/dw/react-trux?style=flat-square)](https://npmjs.org/package/react-trux)
@@ -414,3 +420,6 @@ function MyComponent() {
   </details>
 
 [gh-license]: https://github.com/miko-github/react-trux/blob/master/LICENSE
+
+
+-->
